@@ -70,7 +70,7 @@ export default function About() {
           Outside of tech, I’m passionate about fitness and strength training. Hitting the gym is part of my daily routine—it keeps me disciplined, motivated, and focused.
         </Paragraph>
         <Heading as="h2" className="text-xl font-bold mt-6">
-           My Goal
+           My Goal ..
         </Heading>
         <Paragraph className="mt-4">
           I aim to become a skilled cybersecurity engineer, capable of protecting digital assets and helping organizations build more secure systems. I’m especially drawn to roles in offensive security, penetration testing, or secure software development in fintech or high-security industries. My mission is to always keep learning, improving, and contributing to a safer digital future.
