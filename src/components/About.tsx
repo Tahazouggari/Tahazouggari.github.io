@@ -1,7 +1,7 @@
 "use client";
 import { Paragraph } from "@/components/Paragraph";
 import Image from "next/image";
-
+import { Heading } from "@/components/Heading"; // Add this import
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -38,80 +38,42 @@ export default function About() {
             />
           </motion.div>
         ))}
-        {/* 
-        // <Image
-        //   src="https://images.unsplash.com/photo-1692544350322-ac70cfd63614?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
-        //   width={200}
-        //   height={400}
-        //   alt="about"
-        //   className="rounded-md object-cover transform rotate-3 shadow-xl block w-full h-40 md:h-60 hover:rotate-0 transition duration-200"
-        // />
-        // <Image
-        //   src="https://images.unsplash.com/photo-1692374227159-2d3592f274c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
-        //   width={200}
-        //   height={400}
-        //   alt="about"
-        //   className="rounded-md object-cover transform -rotate-3 shadow-xl block w-full h-40 md:h-60  hover:rotate-0 transition duration-200"
-        // />
-        // <Image
-        //   src="https://images.unsplash.com/photo-1692005561659-cdba32d1e4a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-        //   width={200}
-        //   height={400}
-        //   alt="about"
-        //   className="rounded-md object-cover transform rotate-3 shadow-xl block w-full h-40 md:h-60  hover:rotate-0 transition duration-200"
-        // />
-        // <Image
-        //   src="https://images.unsplash.com/photo-1692445381633-7999ebc03730?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-        //   width={200}
-        //   height={400}
-        //   alt="about"
-        //   className="rounded-md object-cover transform -rotate-3 shadow-xl block w-full h-40 md:h-60  hover:rotate-0 transition duration-200"
-        // /> */}
       </div>
 
       <div className="max-w-4xl">
-        <Paragraph className=" mt-4">
-          Hey there, I&apos;m John Doe - a passionate developer, avid writer,
-          and a connoisseur of awesome design. Welcome to my corner of the
-          digital world!
+        <title>who i am?</title>
+        <Heading as="h2" className="text-xl font-bold mt-4">
+          Who I Am ?
+        </Heading>
+        <Paragraph className="mt-4">
+          I’m a second-year Master’s student in Computer Science at ENSICAEN, specializing in Cybersecurity and Digital Payment Systems. My academic background combines a strong foundation in computer science with advanced training in information security, secure application development, and digital transaction systems. I’m particularly interested in how security principles apply to the evolving world of e-payment technologies.
         </Paragraph>
-        <Paragraph className=" mt-4">
-          Since the early days of my journey, I&apos;ve been captivated by the
-          art of crafting exceptional digital experiences. As a developer, I
-          thrive on turning lines of code into functional and elegant solutions.
-          My goal is to not just create software, but to build digital marvels
-          that seamlessly merge form and function.
+        <Heading as="h2" className="text-xl font-bold mt-6">
+           My Passion for Cybersecurity
+        </Heading>
+        <Paragraph className="mt-4">
+          Cybersecurity isn’t just a field I study—it’s something I genuinely love. I’m passionate about ethical hacking, penetration testing, and system hardening. I enjoy diving deep into how systems work, finding vulnerabilities, and developing ways to fix them. Platforms like HackTheBox, TryHackMe, and CTF challenges are part of my regular learning routine. They keep me sharp and help me think like both an attacker and a defender.
         </Paragraph>
-
-        <Paragraph className=" mt-4">
-          But my journey doesn&apos;t stop at coding. With a heart full of words
-          and a mind brimming with ideas, I&apos;ve ventured into the realm of
-          writing. From tech articles that unravel complex concepts to creative
-          tales that ignite the imagination, I weave words to inform, entertain,
-          and inspire.
+        <Paragraph className="mt-4">
+          I have hands-on experience using tools like Nmap, Wireshark, Burp Suite, Metasploit, and John the Ripper, and I’m comfortable in Linux-based environments. Whether it's scripting in Python, reverse engineering, or exploring web app flaws with OWASP Top 10, I’m constantly building skills to be a well-rounded cybersecurity professional.
         </Paragraph>
-        <Paragraph className=" mt-4">
-          What sets me apart is my unwavering appreciation for design. I believe
-          that aesthetics and usability go hand in hand. My eye for awesome
-          design ensures that every project I undertake not only works
-          flawlessly under the hood but also looks stunning on the surface.
+        <Heading as="h2" className="text-xl font-bold mt-6">
+             What Drives Me
+        </Heading>
+        <Paragraph className="mt-4">
+          I love solving problems—technical, logical, and strategic. I get excited by real-world challenges that require both creativity and analytical thinking. I see cybersecurity as a never-ending puzzle, and I'm the kind of person who won't stop until I’ve cracked it. I also enjoy working on small personal projects, like automating tasks with Bash or building security testing tools in Python.
         </Paragraph>
-        <Paragraph className=" mt-4">
-          Through this website, I aim to share my insights, experiences, and
-          creations with you. Whether you&apos;re a fellow developer seeking
-          solutions, a fellow writer in search of inspiration, or simply someone
-          who appreciates the finer aspects of design, there&apos;s something
-          here for you.
+        <Heading as="h2" className="text-xl font-bold mt-6">
+             Outside the Screen
+        </Heading>
+        <Paragraph className="mt-4">
+          Outside of tech, I’m passionate about fitness and strength training. Hitting the gym is part of my daily routine—it keeps me disciplined, motivated, and focused.
         </Paragraph>
-        <Paragraph className=" mt-4">
-          Join me on this journey of bytes and narratives, logic and creativity,
-          code and prose. Together, we can explore the boundless possibilities
-          of technology and storytelling, all while reveling in the sheer beauty
-          of thoughtful design.
-        </Paragraph>
-        <Paragraph className=" mt-4">
-          Thank you for being here, and I can&apos;t wait to embark on this
-          adventure with you.
+        <Heading as="h2" className="text-xl font-bold mt-6">
+           My Goal ...
+        </Heading>
+        <Paragraph className="mt-4">
+          I aim to become a skilled cybersecurity engineer, capable of protecting digital assets and helping organizations build more secure systems. I’m especially drawn to roles in offensive security, penetration testing, or secure software development in fintech or high-security industries. My mission is to always keep learning, improving, and contributing to a safer digital future.
         </Paragraph>
       </div>
     </div>
