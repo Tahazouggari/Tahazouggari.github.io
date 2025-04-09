@@ -1,5 +1,5 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
+import sidefolioAceternity from "public/images/cms.png";
+import sidefolioAceternity2 from "public/images/cms2.png";
 import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
 import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
 import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
@@ -9,31 +9,22 @@ import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterk
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "https://github.com/Tahazouggari/CMS",
+    title: "Content Management System ",
     description:
-      "A design and development studio that focuses on building quality apps.",
+      "Content Management System (CMS)",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
+    stack: ["Laravel", "PHP", "MySQL"], 
     slug: "aceternity",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+        This content management system (CMS) is a web application that enables users to create and manage their own pages with ease. It offers both the option to build from scratch and to use predefined templates. The interface is simple and intuitive, making it accessible to both technical and non-technical users. With built-in authentication, the system ensures that content is securely managed and only authorized users can access editing features.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+        In addition to page creation, users can preview their content before publishing, delete pages if needed, and invite collaborators to work together in real time. The system is designed to support dynamic content and aims to offer a more flexible and interactive experience. It's ideal for users looking for a customizable and user-friendly platform to manage their website content efficiently.
+
         </p>{" "}
       </div>
     ),
