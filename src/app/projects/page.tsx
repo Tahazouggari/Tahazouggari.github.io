@@ -20,8 +20,6 @@ export default function Projects() {
         {" "}
         What I&apos;ve been working on
       </Heading>
-      
-
       <Products />
     </Container>
   );
