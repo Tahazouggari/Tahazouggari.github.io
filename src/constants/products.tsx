@@ -1,7 +1,7 @@
 import sidefolioAceternity from "public/images/cms.png";
 import sidefolioAceternity2 from "public/images/cms2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
+import sidefolioAlgochurn from "public/images/phishingurldetector.png";
+import sidefolioAlgochurn2 from "public/images/phishingurldetector.png";
 import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
 import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
 import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
@@ -31,12 +31,12 @@ export const products = [
   },
   {
     href: "https://algochurn.com",
-    title: "Algochurn",
+    title: "Phishing Url detector",
     description:
       "Practice for technical interviews with hands on coding challenges.",
     thumbnail: sidefolioAlgochurn,
     images: [sidefolioAlgochurn, sidefolioAlgochurn2],
-    stack: ["Nextjs", "Tailwindcss"],
+    stack: ["Python", "Flask"],
     slug: "algochurn",
     content: (
       <div>
