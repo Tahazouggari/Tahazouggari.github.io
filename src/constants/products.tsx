@@ -30,10 +30,10 @@ export const products = [
     ),
   },
   {
-    href: "https://algochurn.com",
+    href: "https://github.com/Tahazouggari/Pishing-Urls-detector",
     title: "Phishing Url detector",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
+      "The project analyzes a URL's structure, domain data, and web behavior to extract features for a machine learning model that predicts whether the URL is phishing or legitimate.",
     thumbnail: sidefolioAlgochurn,
     images: [sidefolioAlgochurn, sidefolioAlgochurn2],
     stack: ["Python", "Flask"],
@@ -41,26 +41,16 @@ export const products = [
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+        This project transforms a raw URL into a set of meaningful numerical features that can be analyzed by a machine learning model to determine whether the URL is legitimate or phishing. The process begins by examining the URL's structure—measuring its length, depth, presence of special symbols, and the use of shortening services. It also looks for suspicious patterns such as hyphens in domain names, excessive dots, or the inclusion of sensitive words like "login" or "secure," which are common in phishing attempts. The system then checks domain registration details, such as the age and expiration date, using WHOIS data to assess the domain’s credibility. If this information is unavailable, it flags the URL as more suspicious.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+        The analysis continues by attempting to fetch the actual webpage content and scanning for common phishing behaviors in the HTML code, such as the use of iframe tags, misleading mouse-over actions, and multiple redirections. These behavioral signals are condensed using dimensionality reduction techniques to keep the model efficient. Additional checks include detecting URLs that use IP addresses instead of domain names, the presence of the "@" symbol, and hidden Unicode characters. All these extracted signals are compiled into a structured format that the model uses to make a prediction, effectively turning raw URL data into a security assessment powered by machine learning.
         </p>{" "}
       </div>
     ),
   },
   {
-    href: "https://gomoonbeam.com",
+    href: "https://github.com/Tahazouggari/Pishing-Urls-detector",
     title: "Moonbeam",
     description:
       "Never write from scratch again with Moonbeam, your AI first writing tool",
