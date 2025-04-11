@@ -40,6 +40,8 @@ export const products = [
     slug: "algochurn",
     content: (
       <div>
+
+        
         <p>
         This project transforms a raw URL into a set of meaningful numerical features that can be analyzed by a machine learning model to determine whether the URL is legitimate or phishing. The process begins by examining the URL's structure—measuring its length, depth, presence of special symbols, and the use of shortening services. It also looks for suspicious patterns such as hyphens in domain names, excessive dots, or the inclusion of sensitive words like "login" or "secure," which are common in phishing attempts. The system then checks domain registration details, such as the age and expiration date, using WHOIS data to assess the domain’s credibility. If this information is unavailable, it flags the URL as more suspicious.{" "}
         </p>
