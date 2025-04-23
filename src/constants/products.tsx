@@ -19,9 +19,25 @@ export const products = [
     slug: "aceternity",
     content: (
       <div>
-        <p>
-        This content management system (CMS) is a web application that enables users to create and manage their own pages with ease. It offers both the option to build from scratch and to use predefined templates. The interface is simple and intuitive, making it accessible to both technical and non-technical users. With built-in authentication, the system ensures that content is securely managed and only authorized users can access editing features.{" "}
+         <p className="text-base leading-relaxed">
+        I developed this project during my <strong>second year of engineering studies (2A)</strong> at ENSICAEN as part of my academic work. 
+        It was carried out under the supervision of the{" "}
+        <a 
+          href="https://www.ensicaen.fr/recherche/laboratoires/greyc/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-600 dark:text-blue-400 underline"
+        >
+          GREYC laboratory
+        </a>.
         </p>
+        <p>
+          This content management system (CMS) is a web application that enables users to create and manage their own pages with ease. 
+        It offers both the option to build from scratch and to use predefined templates. The interface is simple and intuitive, 
+        making it accessible to both technical and non-technical users. With built-in authentication, the system ensures that 
+        content is securely managed and only authorized users can access editing features.
+      </p>
+     
         <p>
         In addition to page creation, users can preview their content before publishing, delete pages if needed, and invite collaborators to work together in real time. The system is designed to support dynamic content and aims to offer a more flexible and interactive experience. It's ideal for users looking for a customizable and user-friendly platform to manage their website content efficiently.
 
@@ -40,7 +56,6 @@ export const products = [
     slug: "algochurn",
     content: (
       <div>
-
         
         <p>
         This project transforms a raw URL into a set of meaningful numerical features that can be analyzed by a machine learning model to determine whether the URL is legitimate or phishing. The process begins by examining the URL's structure—measuring its length, depth, presence of special symbols, and the use of shortening services. It also looks for suspicious patterns such as hyphens in domain names, excessive dots, or the inclusion of sensitive words like "login" or "secure," which are common in phishing attempts. The system then checks domain registration details, such as the age and expiration date, using WHOIS data to assess the domain’s credibility. If this information is unavailable, it flags the URL as more suspicious.{" "}
