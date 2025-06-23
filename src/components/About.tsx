@@ -41,41 +41,42 @@ export default function About() {
       </div>
 
       <div className="max-w-4xl">
-        <title>who i am?</title>
-        <Heading as="h2" className="text-xl font-bold mt-4">
-          Who I Am ?
-        </Heading>
-        <Paragraph className="mt-4">
-          I’m a second-year Master’s student in Computer Science at ENSICAEN, specializing in Cybersecurity and Digital Payment Systems. My academic background combines a strong foundation in computer science with advanced training in information security, secure application development, and digital transaction systems. I’m particularly interested in how security principles apply to the evolving world of e-payment technologies.
-        </Paragraph>
-        <Heading as="h2" className="text-xl font-bold mt-6">
-           My Passion for Cybersecurity
-        </Heading>
-        <Paragraph className="mt-4">
-          Cybersecurity isn’t just a field I study—it’s something I genuinely love. I’m passionate about ethical hacking, penetration testing, and system hardening. I enjoy diving deep into how systems work, finding vulnerabilities, and developing ways to fix them. Platforms like HackTheBox, TryHackMe, and CTF challenges are part of my regular learning routine. They keep me sharp and help me think like both an attacker and a defender.
-        </Paragraph>
-        <Paragraph className="mt-4">
-          I have hands-on experience using tools like Nmap, Wireshark, Burp Suite, Metasploit, and John the Ripper, and I’m comfortable in Linux-based environments. Whether it's scripting in Python, reverse engineering, or exploring web app flaws with OWASP Top 10, I’m constantly building skills to be a well-rounded cybersecurity professional.
-        </Paragraph>
-        <Heading as="h2" className="text-xl font-bold mt-6">
-             What Drives Me
-        </Heading>
-        <Paragraph className="mt-4">
-          I love solving problems—technical, logical, and strategic. I get excited by real-world challenges that require both creativity and analytical thinking. I see cybersecurity as a never-ending puzzle, and I'm the kind of person who won't stop until I’ve cracked it. I also enjoy working on small personal projects, like automating tasks with Bash or building security testing tools in Python.
-        </Paragraph>
-        <Heading as="h2" className="text-xl font-bold mt-6">
-             Outside the Screen
-        </Heading>
-        <Paragraph className="mt-4">
-          Outside of tech, I’m passionate about fitness and strength training. Hitting the gym is part of my daily routine—it keeps me disciplined, motivated, and focused.
-        </Paragraph>
-        <Heading as="h2" className="text-xl font-bold mt-6">
-           My Goal ..
-        </Heading>
-        <Paragraph className="mt-4">
-          I aim to become a skilled cybersecurity engineer, capable of protecting digital assets and helping organizations build more secure systems. I’m especially drawn to roles in offensive security, penetration testing, or secure software development in fintech or high-security industries. My mission is to always keep learning, improving, and contributing to a safer digital future.
-        </Paragraph>
-      </div>
+  <title>who i am?</title>
+  <Heading as="h2" className="text-xl font-bold mt-4">
+    Who I Am ?
+  </Heading>
+  <Paragraph className="mt-4">
+    I&apos;m a second-year Master&apos;s student in Computer Science at ENSICAEN, specializing in Cybersecurity and Digital Payment Systems. My academic background combines a strong foundation in computer science with advanced training in information security, secure application development, and digital transaction systems. I&apos;m particularly interested in how security principles apply to the evolving world of e-payment technologies.
+  </Paragraph>
+  <Heading as="h2" className="text-xl font-bold mt-6">
+    My Passion for Cybersecurity
+  </Heading>
+  <Paragraph className="mt-4">
+    Cybersecurity isn&apos;t just a field I study—it&apos;s something I genuinely love. I&apos;m passionate about ethical hacking, penetration testing, and system hardening. I enjoy diving deep into how systems work, finding vulnerabilities, and developing ways to fix them. Platforms like HackTheBox, TryHackMe, and CTF challenges are part of my regular learning routine. They keep me sharp and help me think like both an attacker and a defender.
+  </Paragraph>
+  <Paragraph className="mt-4">
+    I have hands-on experience using tools like Nmap, Wireshark, Burp Suite, Metasploit, and John the Ripper, and I&apos;m comfortable in Linux-based environments. Whether it&apos;s scripting in Python, reverse engineering, or exploring web app flaws with OWASP Top 10, I&apos;m constantly building skills to be a well-rounded cybersecurity professional.
+  </Paragraph>
+  <Heading as="h2" className="text-xl font-bold mt-6">
+    What Drives Me
+  </Heading>
+  <Paragraph className="mt-4">
+    I love solving problems—technical, logical, and strategic. I get excited by real-world challenges that require both creativity and analytical thinking. I see cybersecurity as a never-ending puzzle, and I&apos;m the kind of person who won&apos;t stop until I&apos;ve cracked it. I also enjoy working on small personal projects, like automating tasks with Bash or building security testing tools in Python.
+  </Paragraph>
+  <Heading as="h2" className="text-xl font-bold mt-6">
+    Outside the Screen
+  </Heading>
+  <Paragraph className="mt-4">
+    Outside of tech, I&apos;m passionate about fitness and strength training. Hitting the gym is part of my daily routine—it keeps me disciplined, motivated, and focused.
+  </Paragraph>
+  <Heading as="h2" className="text-xl font-bold mt-6">
+    My Goal ..
+  </Heading>
+  <Paragraph className="mt-4">
+    I aim to become a skilled cybersecurity engineer, capable of protecting digital assets and helping organizations build more secure systems. I&apos;m especially drawn to roles in offensive security, penetration testing, or secure software development in fintech or high-security industries. My mission is to always keep learning, improving, and contributing to a safer digital future.
+  </Paragraph>
+</div>
+
     </div>
   );
 }

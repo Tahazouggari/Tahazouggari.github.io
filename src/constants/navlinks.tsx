@@ -4,6 +4,7 @@ import {
   IconBriefcase2,
   IconMail,
   IconMessage2,
+  IconFlag,
 } from "@tabler/icons-react";
 
 export const navlinks = [
@@ -22,6 +23,13 @@ export const navlinks = [
     label: "Projects",
     icon: IconBriefcase2,
   },
+  // ...existing code...
+{
+  label: "CTF's",
+  href: "/ctfs",
+  icon: IconFlag, // Use an appropriate icon, e.g., from @tabler/icons-react
+},
+// ...existing code...
   {
     href: "/blog",
     label: "Articles",
