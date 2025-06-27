@@ -42,7 +42,7 @@ export default function About() {
           About Me
         </Heading>
         <Paragraph className="mt-4">
-          I am a second-year Master's student in Computer Science at ENSICAEN,
+          I am a second-year Master&apos;s student in Computer Science at ENSICAEN,
           specializing in Cybersecurity and Digital Payment Systems. My academic
           journey blends a solid foundation in computer science with advanced
           expertise in information security, cryptography, and secure
@@ -73,8 +73,8 @@ export default function About() {
           Technical Mindset & Motivation
         </Heading>
         <Paragraph className="mt-4">
-          I’m driven by a deep curiosity for how systems work and a relentless
-          desire to solve complex technical problems. Whether I’m debugging a
+          I&apos;m driven by a deep curiosity for how systems work and a relentless
+          desire to solve complex technical problems. Whether I&apos;m debugging a
           security flaw or building a custom tool to automate a task, I enjoy
           applying both logic and creativity to every challenge. I view
           cybersecurity as an evolving puzzle—one that motivates continuous
@@ -85,7 +85,7 @@ export default function About() {
           Beyond Cybersecurity
         </Heading>
         <Paragraph className="mt-4">
-          Outside the digital realm, I’m deeply committed to fitness and
+          Outside the digital realm, I&apos;m deeply committed to fitness and
           strength training. My discipline at the gym complements my work ethic
           in tech—it builds resilience, sharpens focus, and keeps me grounded.
         </Paragraph>
@@ -98,7 +98,7 @@ export default function About() {
           protecting critical systems and contributing to the resilience of
           modern infrastructures. I aspire to work in offensive security roles,
           secure software development, or cybersecurity consulting—particularly
-          within finance, healthcare, or defense sectors. I’m committed to
+          within finance, healthcare, or defense sectors. I&apos;m committed to
           lifelong learning, ethical responsibility, and making meaningful
           contributions to a more secure digital future.
         </Paragraph>
