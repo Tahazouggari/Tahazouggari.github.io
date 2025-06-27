@@ -1,48 +1,51 @@
-"use client";
-import React from "react";
+import { Container } from "@/components/Container";
+import { Heading } from "@/components/Heading";
+import { Metadata } from "next";
+import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "CTFs | John Doe",
+  description:
+    "CTF platforms and writeups by John Doe.",
+};
 
 const ctfs = [
   {
-    title: "PentesterLab Challenge 1",
-    pdf: "/pdf/pentesterlab-challenge1.pdf",
+    name: "PentesterLab",
+    image: "/images/pentesterlab.png",
+    href: "/ctfs/pentesterlab",
   },
-  {
-    title: "PentesterLab Challenge 2",
-    pdf: "/pdf/pentesterlab-challenge2.pdf",
-  },
-  // Add more as you create them
+  
+  // Add more CTF platforms as needed
 ];
 
-export default function CTFsPage() {
+export default function CTFs() {
   return (
-    <div className="max-w-2xl mx-auto py-10 px-4">
-      <h1 className="text-3xl font-bold mb-6">CTF Writeups</h1>
-      <p className="mb-8 text-gray-700">
-        Here you can find PDF writeups for challenges I solved on PentesterLab, Root-Me, and more platforms coming soon.
-      </p>
-      <div className="space-y-12">
-        {ctfs.map((ctf, idx) => (
-          <div key={idx} className="border rounded-lg p-4 bg-white shadow">
-            <h2 className="text-xl font-semibold mb-2">{ctf.title}</h2>
-            <iframe
-              src={ctf.pdf}
-              width="100%"
-              height="400px"
-              style={{ border: "1px solid #ccc", borderRadius: "8px" }}
-              title={ctf.title}
-            />
-            <div className="mt-2">
-              <a
-                href={ctf.pdf}
-                download
-                className="text-blue-600 underline"
-              >
-                Download PDF
-              </a>
-            </div>
-          </div>
-        ))}
+    <Container>
+      <span className="text-4xl block mb-2">⚡</span>
+      <Heading className="font-black mb-10 text-center">CTF Platforms</Heading>
+      <div className="flex justify-center">
+        <div className="flex flex-wrap gap-10 justify-center">
+          {ctfs.map((ctf) => (
+            <a
+              key={ctf.name}
+              href={ctf.href}
+              className="flex flex-col items-center p-6 rounded-xl bg-neutral-900 border border-neutral-800 shadow-lg hover:shadow-2xl transition-all hover:scale-105"
+              style={{ width: 240, minHeight: 180 }}
+            >
+              <Image
+                src={ctf.image}
+                alt={ctf.name}
+                width={120}
+                height={80}
+                className="object-contain rounded mb-4"
+                style={{ background: "#18181b" }}
+              />
+              <span className="mt-2 font-bold text-xl text-white">{ctf.name}</span>
+            </a>
+          ))}
+        </div>
       </div>
-    </div>
+    </Container>
   );
 }

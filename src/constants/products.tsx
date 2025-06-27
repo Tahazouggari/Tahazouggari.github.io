@@ -7,6 +7,8 @@ import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
 import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
 import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
 import EpidemicSim from "public/images/EpidemicSim.png";
+import pentesterlabImg from "public/images/pentesterlab.png";
+
 
 export const products = [
   {
@@ -88,7 +90,7 @@ export const products = [
         title="Epidemic Simulation Report"
       />
       <div className="mt-4 text-gray-700">
-        Cant &apos view the PDF?{" "}
+        Cant &apos; view the PDF?{" "}
         <a
           href="/pdf/EpidemicSim.pdf"
           download
