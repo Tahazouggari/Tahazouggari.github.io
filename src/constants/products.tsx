@@ -4,8 +4,8 @@ import sidefolioAlgochurn from "public/images/phishingurldetector.png";
 import sidefolioAlgochurn2 from "public/images/phishingurldetector.png";
 import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
 import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+
+import parachute from "public/images/parachute.png";
 import EpidemicSim from "public/images/EpidemicSim.png";
 import pentesterlabImg from "public/images/pentesterlab.png";
 
@@ -104,32 +104,20 @@ export const products = [
 },
 
   {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    href: "https://github.com/Tahazouggari/Parachute",
+    title: "ParachuteEncoder",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
+      "ParachuteEncoder is a Qt-based tool that visually encodes messages into customizable parachute designs inspired by the Perseverance rover’s landing system.",
+    thumbnail: parachute,
+    images: [parachute, parachute],
+    stack: ["Qt", "MVP"],
     slug: "tailwindmasterkit",
     content: (
       <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+        <p><strong>ParachuteEncoder</strong> is a graphical application built with Qt that allows users to encode textual messages into binary and visualize them as stylized parachute designs, inspired by NASA&rsquo;s Perseverance rover. The tool supports standard ASCII (7-bit) and Mode 10 (10-bit with padding) encodings, and renders the message as colored sectors and tracks on a circular parachute. Users can customize the number of segments, colors, background image, and even the reference character used in encoding. The application also includes hexadecimal visualization, dynamic language switching (English/French), and a responsive, modern UI.</p>
+
+        <p>Designed with the Model-View-Presenter (MVP) pattern, the project emphasizes modularity and clarity in design. It offers features such as exporting the visualized parachute as a PNG image and saving/loading complete session data via custom <code>.ep</code> files. ParachuteEncoder aims to blend creativity and encoding education through an intuitive and interactive interface, making it a powerful demonstration of how data can be embedded into visual patterns for both fun and functional uses.</p>
+          
       </div>
     ),
   },
