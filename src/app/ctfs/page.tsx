@@ -4,9 +4,9 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "CTFs | John Doe",
+  title: "CTFs | Taha ZOUGGRI",
   description:
-    "CTF platforms and writeups by John Doe.",
+    "CTF platforms and writeups by Taha Zouggari.",
 };
 
 const ctfs = [
@@ -22,22 +22,29 @@ const ctfs = [
 export default function CTFs() {
   return (
     <Container>
-      <span className="text-4xl block mb-2">⚡</span>
-      <Heading className="font-black mb-10 text-center">CTF Platforms</Heading>
+      <div className="text-center">
+        <span className="text-5xl block mb-4">⚡</span>
+        <Heading className="font-extrabold text-3xl mb-6 text-white">
+          Explore CTF Platforms
+        </Heading>
+        <p className="text-neutral-400 mb-10">
+          Discover platforms to sharpen your cybersecurity skills and explore writeups.
+        </p>
+      </div>
       <div className="flex justify-center">
-        <div className="flex flex-wrap gap-10 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {ctfs.map((ctf) => (
             <a
               key={ctf.name}
               href={ctf.href}
-              className="flex flex-col items-center p-6 rounded-xl bg-neutral-900 border border-neutral-800 shadow-lg hover:shadow-2xl transition-all hover:scale-105"
-              style={{ width: 240, minHeight: 180 }}
+              className="flex flex-col items-center p-6 rounded-xl bg-neutral-900 border border-neutral-800 shadow-lg hover:shadow-2xl transition-all hover:scale-105 hover:border-gradient-to-r hover:from-purple-500 hover:to-blue-500"
+              style={{ width: 260, minHeight: 200 }}
             >
               <Image
                 src={ctf.image}
                 alt={ctf.name}
-                width={120}
-                height={80}
+                width={140}
+                height={100}
                 className="object-contain rounded mb-4"
                 style={{ background: "#18181b" }}
               />

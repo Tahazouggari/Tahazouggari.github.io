@@ -23,17 +23,15 @@ export const navlinks = [
     label: "Projects",
     icon: IconBriefcase2,
   },
-  // ...existing code...
-{
-  label: "CTF's",
-  href: "/ctfs",
-  icon: IconFlag, // Use an appropriate icon, e.g., from @tabler/icons-react
-},
-// ...existing code...
+  {
+    label: "CTF's",
+    href: "/ctfs",
+    icon: IconFlag,
+  },
   {
     href: "/blog",
-    label: "Articles",
-    icon: IconArticle,
+    label: "Professional Experience",
+    icon: IconBriefcase2,
   },
   {
     href: "/contact",

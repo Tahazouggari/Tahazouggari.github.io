@@ -1,103 +1,73 @@
 import { BlogLayout } from "@/components/BlogLayout";
-
-import { CodeWindow } from "@/components/CodeWindow";
-
+import NAIST from "public/images/naist.png";
+import me from "public/images/me.jpeg"
 export const meta = {
   date: "2023-08-18",
-  title: "Writing Clean Code With React",
+  title: "Research on Malware Detection at NAIST, Japan",
   description:
-    "Effective and efficient ways to write clean code with React while keeping in mind the performance and maintainability of the codebase.",
-  image:
-    "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  tags: ["Clean Code"],
+    "Insights and findings from my research on malware detection conducted at NAIST in Japan.",
+  image: NAIST,
+  tags: ["Research", "Malware Detection", "NAIST"],
 };
 
 export default (props) => <BlogLayout meta={meta} {...props} />;
 
-Velit cillum fugiat proident pariatur anim proident laborum incididunt magna in labore adipisicing veniam quis. Ut et exercitation dolor in enim quis. Et est excepteur exercitation voluptate in qui duis nulla in anim ut commodo deserunt nisi. Dolor pariatur irure occaecat Lorem mollit veniam adipisicing.
+## Remerciement
 
-Deserunt qui ea do et laborum ad id. Tempor laborum aute fugiat tempor eu. Amet sint sint proident pariatur eiusmod mollit excepteur excepteur. Dolore cillum nulla enim tempor ad.
+I would like to express my heartfelt gratitude to the members of IPLAB for their invaluable support and guidance during my research at NAIST. Special thanks to:
 
-Laborum quis proident ut anim consectetur. Consequat fugiat eiusmod qui officia duis eu minim cillum do qui. Sunt sit veniam minim ad id sunt magna est enim.
+- **[Professor Youki Kadobayashi](https://iplab.naist.jp/members/youki/)** (Tuteur): For his exceptional mentorship and leadership.
+- **[Dr. Yuzo Taenaka](https://taenaka.net/)** (Associate Professor): For his insightful advice and encouragement.
 
-Consectetur est sunt minim culpa quis aute officia incididunt ea laboris nulla officia dolor. Cupidatat cupidatat esse veniam cillum labore ullamco aliqua ex. Cillum incididunt ipsum laborum dolor enim incididunt consectetur id consectetur magna. Consequat mollit non ea cupidatat exercitation. Consequat reprehenderit eiusmod nisi ea esse id ut est consequat eu aliqua do quis.
+I would also like to extend my appreciation to the other members of IPLAB, whose collaboration and camaraderie made this experience truly enriching. I will add more names here as needed.
 
-Occaecat commodo velit ea consectetur ut sit. Duis eiusmod ad tempor nisi magna dolore incididunt ea dolore. Commodo proident eiusmod consequat cupidatat consectetur adipisicing dolor commodo tempor labore non dolore Lorem consectetur.
+## About IPLAB
 
-## Code Snippet
+The Laboratory for Cyber Resilience (IPLAB) was established in January 2017 by **Professor Youki Kadobayashi**, succeeding Professor Yamaguchi’s Internet Engineering Laboratory. Its abbreviation, IPLAB, symbolizes the effort and spirit of the former laboratory’s professor. Initially part of the graduate school of information science, it transitioned into the information science division under the graduate school of science and technology at NAIST in April 2018.
 
-<CodeWindow title="BoxesContainer.tsx">
+### Research Focus
 
-```TSX
-import React from "react";
-import { motion } from "framer-motion";
+IPLAB engages in research and education to enhance cyber resilience against potential threats. The lab focuses on empirical studies to improve resilience (i.e., making systems secure, flexible, and efficient) in both cyber and physical domains. Additionally, transferring these technologies into real-world applications is a core emphasis.
 
-export const BoxesContainer = () => {
-  const rows = new Array(150).fill(1);
-  const cols = new Array(100).fill(1);
-  let colors = [
-    "--sky-300",
-    "--pink-300",
-    "--green-300",
-    "--yellow-300",
-    "--red-300",
-    "--purple-300",
-    "--blue-300",
-    "--indigo-300",
-    "--violet-300",
-  ];
-  const getRandomColor = () => {
-    return colors[Math.floor(Math.random() * colors.length)];
-  };
+Key research areas include:
 
-  return (
-    <div
-      style={{
-        transform: `translate(-40%,-60%) skewX(-48deg) skewY(14deg) scale(0.675) rotate(0deg) translateZ(0)`,
-      }}
-      className="absolute left-1/4 p-4 -top-1/4 flex  -translate-x-1/2 -translate-y-1/2 w-full h-full z-0 "
-    >
-      {rows.map((_, i) => (
-        <motion.div
-          key={`row` + i}
-          className="w-16 h-8  border-l  border-slate-700 relative"
-        >
-          {cols.map((_, j) => (
-            <motion.div
-              whileHover={{
-                backgroundColor: `var(${getRandomColor()})`,
-                transition: { duration: 0 },
-              }}
-              animate={{
-                transition: { duration: 2 },
-              }}
-              key={`col` + j}
-              className="w-16 h-8  border-r border-t border-slate-700 relative"
-            >
-              {j % 2 === 0 && i % 2 === 0 ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="absolute h-6 w-10 -top-[14px] -left-[22px] text-slate-700 stroke-[1px] pointer-events-none"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 6v12m6-6H6"
-                  />
-                </svg>
-              ) : null}
-            </motion.div>
-          ))}
-        </motion.div>
-      ))}
-    </div>
-  );
-};
+- **Security**: Malware analysis, phishing, forensics, IoT security, and security standards.
+- **Network**: DDoS mitigation, IPv6 transition, software-defined networks (SDN/NFV), wireless networks (WLAN/LPWA), and IoT.
+- **Society**: Cybersecurity education, Unmanned Aerial Vehicle (drone) security, and security standards.
 
-```
+### Education and Outreach
 
-</CodeWindow>
+IPLAB organizes international workshops and laboratory sessions to share knowledge on specific topics. The lab also participates in educational projects for students, company employees, and professionals in various industries, such as:
+
+- Hardening Project
+- IT-Keys
+- enPiT-Security
+
+### Achievements
+
+- **February 11, 2024**: Mr. Abraham Olufemi Abiodun, a third-year PhD student, received the SHIMADZU CORPORATION Award at the 2023 Doctoral Career Messe KYOTO.
+- **November 11, 2023**: A student team won 1st place in the static analysis category and 2nd place in the DFIR category at MWS Cup 2023.
+- **October 9, 2022**: The Hardening Project won Japan's Good Design Award 2022.
+- **March 24, 2019**: The lab launched its new website.
+
+For more details about IPLAB and its activities, please visit their official website.
+
+## Research Objectives
+
+Coming Soon
+
+## Key Findings
+
+Coming Soon
+
+## Challenges Faced
+
+Coming Soon
+
+## Future Work
+
+Coming Soon
+
+## Conclusion
+
+Coming Soon

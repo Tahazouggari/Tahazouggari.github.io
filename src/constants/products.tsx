@@ -5,8 +5,8 @@ import sidefolioAlgochurn2 from "public/images/phishingurldetector.png";
 import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
 import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
 
-import parachute from "public/images/parachute.png";
-import EpidemicSim from "public/images/EpidemicSim.png";
+import parachute from "public/images/parachute.PNG";
+import EpidemicSim from "public/images/EpidemicSim.PNG";
 import pentesterlabImg from "public/images/pentesterlab.png";
 
 
