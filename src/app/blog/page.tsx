@@ -10,7 +10,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "My Experience Blog | Taha ZOUGGRI",
   description:
-    "professional experiences, insights, and lessons learned throughout my career.",
+    "Taha Zouggari is a cybersecurity enthusiast sharing professional experiences, insights, and lessons learned throughout his career.",
 };
 
 export default async function Blog() {
