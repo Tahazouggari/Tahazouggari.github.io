@@ -3,11 +3,7 @@ import { Heading } from "@/components/Heading";
 import { Paragraph } from "@/components/Paragraph";
 
 const badges = [
-  { name: "PentesterLab Badge", slug: "pentesterlab" },
-  { name: "HackTheBox Badge", slug: "hackthebox" },
-  { name: "TryHackMe Badge", slug: "tryhackme" },
-  { name: "Essentiell Badge", slug: "essentiell" },
-  { name: "PCAP Badge", slug: "pcap" },
+  { name: "Essentiell Badge", slug: "essentiell" }, // Only Essentiell Badge
 ];
 
 export default function BadgesPage() {
@@ -30,7 +26,8 @@ export default function BadgesPage() {
       </div>
     </Container>
   );
-}export const ctfs = [
+}
+export const ctfs = [
   {
     name: "PentesterLab",
     image: "/images/pentesterlab.png",
