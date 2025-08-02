@@ -33,19 +33,16 @@ const challenges = [
     title: "Server-Side Request Forgery (SSRF)",
     pdf: "/pdf/Server_Side_Request_Forgery.pdf",
   },
+  {
+    title: "XMLDecoder",
+    pdf: "/pdf/XMLDecoder.pdf",
+  },
   // Add more challenges as needed
 ];
 
 export default function EssentiellBadgePage() {
   return (
     <Container>
-      <div className="mb-6">
-        <Link href="/badges">
-          <button className="px-4 py-2 text-blue-500 border border-blue-500 rounded hover:bg-blue-100 transition">
-            ← Back to Badges
-          </button>
-        </Link>
-      </div>
       <div className="flex items-center gap-4 mb-8">
         <Image
           src="/images/essentiell.png"
