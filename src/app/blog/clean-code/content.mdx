@@ -1,6 +1,8 @@
 import { BlogLayout } from "@/components/BlogLayout";
 import NAIST from "public/images/naist.png";
-import me from "public/images/me.jpeg"
+
+import me from "public/images/me.jpeg";
+
 export const meta = {
   date: "2023-08-18",
   title: "Research on Malware Detection at NAIST, Japan",
@@ -12,7 +14,7 @@ export const meta = {
 
 export default (props) => <BlogLayout meta={meta} {...props} />;
 
-## Remerciement
+## Acknowledgments
 
 I would like to express my heartfelt gratitude to the members of IPLAB for their invaluable support and guidance during my research at NAIST. Special thanks to:
 
@@ -23,51 +25,49 @@ I would also like to extend my appreciation to the other members of IPLAB, whose
 
 ## About IPLAB
 
-The Laboratory for Cyber Resilience (IPLAB) was established in January 2017 by **Professor Youki Kadobayashi**, succeeding Professor Yamaguchi’s Internet Engineering Laboratory. Its abbreviation, IPLAB, symbolizes the effort and spirit of the former laboratory’s professor. Initially part of the graduate school of information science, it transitioned into the information science division under the graduate school of science and technology at NAIST in April 2018.
+The Laboratory for Cyber Resilience have been established in January 2017 by Professor **Youki Kadobayashi**, succeeding Professor Yamaguchi’s Internet Engineering Laboratory. Its abbreviation, IPLab, was inherited as a symbol, effort and spirit of the former laboratory’s professor. When this laboratory was founded, it was a part of graduate school of information science which later transformed into information science division under the graduate school of science and technology, Nara Institute of Science and Technology in April 2018.
 
-### Research Focus
+Our laboratory engages in research and education for cyber strength against possible threats. We focus on empirical studies for improving the resilience (i.e. making it secure, flexible and efficient) both over the cyber and physical areas. In addition to that, the transfer of those technology into the real world is also one of the core emphases. In the area of research, we are investigating on all technical domains of resilience as follows:
 
-IPLAB engages in research and education to enhance cyber resilience against potential threats. The lab focuses on empirical studies to improve resilience (i.e., making systems secure, flexible, and efficient) in both cyber and physical domains. Additionally, transferring these technologies into real-world applications is a core emphasis.
+- **Security**: security standards, malware analysis, phishing, forensics, and Internet of Things (IoT).
+- **Network**: DDoS, IPv6 transition, software networks (SDN/NFV), wireless networks (WLAN/LPWA) and IoT.
+- **Society**: security standards, cyber security education, Unmanned Aerial Vehicle (drone).
 
-Key research areas include:
+These aforementioned areas are only few examples of what we are interested in. With regards to education, we organise international workshops and laboratory workshops to learn and share some specific topics. Furthermore, we are involved in organising some educational projects for students, company employees and professionals in various industrial sectors, such as Hardening Project, IT-Keys, enPiT-Security, etc.
+<div className="my-12 relative">
+  <img
+    src="/images/iplab.jpeg"
+    alt="IPLAB Research Team"
+    className="w-full h-[400px] object-cover rounded-xl shadow-2xl"
+  />
+  <div className="absolute bottom-4 left-4 bg-black/70 px-4 py-2 rounded-lg">
+    <p className="text-sm text-white">IPLAB Research Team at NAIST</p>
+  </div>
+</div>
 
-- **Security**: Malware analysis, phishing, forensics, IoT security, and security standards.
-- **Network**: DDoS mitigation, IPv6 transition, software-defined networks (SDN/NFV), wireless networks (WLAN/LPWA), and IoT.
-- **Society**: Cybersecurity education, Unmanned Aerial Vehicle (drone) security, and security standards.
 
-### Education and Outreach
 
-IPLAB organizes international workshops and laboratory sessions to share knowledge on specific topics. The lab also participates in educational projects for students, company employees, and professionals in various industries, such as:
+# Research Objectives
 
-- Hardening Project
-- IT-Keys
-- enPiT-Security
+### Overview
+I conducted research on malware detection using game theoretic frameworks at NAIST's IPLAB, developing innovative approaches to address evolving cybersecurity challenges. The project focused on modeling malware-detector interactions as strategic games, enabling more sophisticated defense mechanisms.
 
-### Achievements
+### Research Framework
+Our approach encompassed three key areas:
+- **Strategic Modeling**: Developing game-theoretic models for attacker-defender dynamics
+- **Equilibrium Analysis**: Identifying optimal detection strategies through Nash equilibrium
+- **Adaptive Defense**: Creating evolving defense mechanisms that respond to threat patterns
 
-- **February 11, 2024**: Mr. Abraham Olufemi Abiodun, a third-year PhD student, received the SHIMADZU CORPORATION Award at the 2023 Doctoral Career Messe KYOTO.
-- **November 11, 2023**: A student team won 1st place in the static analysis category and 2nd place in the DFIR category at MWS Cup 2023.
-- **October 9, 2022**: The Hardening Project won Japan's Good Design Award 2022.
-- **March 24, 2019**: The lab launched its new website.
 
-For more details about IPLAB and its activities, please visit their official website.
+### Research Paper
+<iframe
+  src="/pdf/Article.pdf"
+  width="100%"
+  height="800"
+  className="border border-gray-300 rounded-lg mt-6"
+/>
 
-## Research Objectives
+## My academic Report
 
-Coming Soon
+Coming soon
 
-## Key Findings
-
-Coming Soon
-
-## Challenges Faced
-
-Coming Soon
-
-## Future Work
-
-Coming Soon
-
-## Conclusion
-
-Coming Soon
