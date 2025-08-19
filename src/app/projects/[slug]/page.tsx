@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   } else {
     return {
-      title: "Projects | Taha ZOUGGRI",
+      title: "Projects | Taha ZOUGGARI",
       description:
         "Taha Zouggari is a cybersecurity engineer specializing in secure payment systems and digital financial solutions.",
     };

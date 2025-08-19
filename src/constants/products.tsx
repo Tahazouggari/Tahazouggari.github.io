@@ -8,7 +8,11 @@ import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
 import parachute from "public/images/parachute.png";
 import EpidemicSim from "public/images/EpidemicSim.png";
 import pentesterlabImg from "public/images/pentesterlab.png";
-
+import LCLme from "public/images/hackathon.jpeg";
+import LCLwe from "public/images/lclwe.jpeg";
+import LCLLion from "public/images/hackathonLion.jpeg";
+import LCLgoogle from "public/images/LCLxgooglecloud.jpeg";
+import lclhost from "public/images/lclehost.jpeg";
 
 export const products = [
   {
@@ -109,7 +113,7 @@ export const products = [
     description:
       "ParachuteEncoder is a Qt-based tool that visually encodes messages into customizable parachute designs inspired by the Perseverance rover’s landing system.",
     thumbnail: parachute,
-    images: [parachute, parachute],
+    images: [parachute],
     stack: ["Qt", "MVP"],
     slug: "tailwindmasterkit",
     content: (
@@ -120,5 +124,32 @@ export const products = [
           
       </div>
     ),
+  },
+  {
+    href: "https://github.com/Tahazouggari/Parachute",
+    title: "LCL x Google Cloud 2024",
+    description:
+      "The event challenged participants to predict customer financial behaviors and generate personalized product and service recommendations for LCL.",
+    thumbnail: LCLme,
+    images: [LCLwe,LCLgoogle,lclhost],
+    stack: ["Python","BigQuery","Machine Learning","Data Analysis"],
+    slug: "LCl",
+    content: (
+      <div>
+        <p>
+          Ahead of the <strong>Hackathon LCL 2024</strong>, I successfully completed several <strong>Google Cloud training modules</strong>, including <em>Cloud Fundamentals: Core Infrastructure</em> and <em>Generative AI with Vertex AI and Gemini</em>. These courses provided a solid foundation in cloud architecture and AI integration, which proved invaluable during the competition. 
+        </p>
+    
+        <p>
+          The hackathon featured <strong>two distinct challenges</strong>: one centered on predicting customer financial behaviors with machine learning, and another on deploying an AI-powered ChatBot using Gemini AI. <strong>Our team was assigned the first challenge</strong>, where we designed and implemented scalable solutions for customer behavior analysis and personalized product recommendations by leveraging <strong>Google Cloud Platform</strong>.
+        </p>
+    
+        <p>
+          Carried out under intense time constraints, the competition required <strong>48 hours of continuous, high-pressure work</strong>. This experience not only enhanced my technical expertise in <strong>machine learning, data analysis, and cloud deployment</strong>, but also strengthened my resilience, adaptability, and ability to collaborate effectively. It provided direct exposure to real-world financial technology use cases and fostered valuable connections with professionals from <strong>LCL</strong> and <strong>Google Cloud</strong>.
+        </p>
+      </div>
+    ),
+    
+    
   },
 ];

@@ -19,7 +19,7 @@ export default async function Blog() {
 
   return (
     <Container>
-      <span className="text-4xl">📘</span>
+      <span className="text-4xl"></span>
       <Heading className="font-black pb-4">My Experience Blog</Heading>
       <Paragraph className="pb-10">
         I share my <Highlight> professional journey</Highlight>, key insights, and lessons learned.

@@ -24,7 +24,7 @@ export const navlinks = [
     icon: IconBriefcase2,
   },
   {
-    label: "CTF's",
+    label: "Certifications & Badges",
     href: "/ctfs",
     icon: IconFlag,
   },

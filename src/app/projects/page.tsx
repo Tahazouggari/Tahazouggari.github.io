@@ -7,7 +7,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Projects | Taha ZOUGGRI",
+  title: "Projects | Taha ZOUGGARI",
   description:
     "Taha Zouggari is a cybersecurity engineer specializing in secure payment systems and digital financial solutions.",
 };
