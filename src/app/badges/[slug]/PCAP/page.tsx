@@ -1,40 +1,34 @@
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import Image from "next/image";
-import Link from "next/link";
 
-// List your solved challenges and their PDF filenames here
 const challenges = [
   {
-    title: "Cross site scripting (XSS)",
-    pdf: "/pdf/xss.pdf",
+    title: "Network Analysis",
+    pdf: "/pdf/pcap.pdf",
   },
-  {
-    title: "SQL Injection",
-    pdf: "/pdf/SQLInjection.pdf",
-  },
-  // Add more challenges as needed
+  
 ];
 
-export default function PentesterLabBadgePage() {
+export default function PCAPBadgePage() {
   return (
     <Container>
       <div className="flex items-center gap-4 mb-8">
         <Image
-          src="/images/pentesterlab.png"
-          alt="PentesterLab Badge"
+          src="/images/pcap.png"
+          alt="PCAP Badge"
           width={48}
           height={48}
           className="rounded"
         />
-        <Heading className="font-black text-2xl">PentesterLab Badge Notes</Heading>
+        <Heading className="font-black text-2xl">PCAP Badge Notes</Heading>
       </div>
       <p className="mb-6 text-lg text-neutral-300">
-        Here are my notes and writeups from PentesterLab challenges I have solved.
+        Here are my notes and writeups from PCAP certification challenges.
       </p>
       <div className="mb-6">
         <a
-          href="https://pentesterlab.com/certs/039b6555ad33a732d6b0e8b29e1960"
+          href="https://pentesterlab.com/certs/121a1ed7ffc71029be803b9285ddfe"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline"
@@ -55,7 +49,7 @@ export default function PentesterLabBadgePage() {
               <iframe
                 src={challenge.pdf}
                 width="100%"
-                height="500px"
+                height="800px"
                 style={{ border: "1px solid #ccc", borderRadius: "8px" }}
                 title={challenge.title + " PDF"}
               />

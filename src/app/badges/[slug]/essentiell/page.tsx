@@ -79,7 +79,7 @@ export default function EssentiellBadgePage() {
               <iframe
                 src={challenge.pdf}
                 width="100%"
-                height="500px"
+                height="800px"
                 style={{ border: "1px solid #ccc", borderRadius: "8px" }}
                 title={challenge.title + " PDF"}
               />

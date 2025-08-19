@@ -3,7 +3,8 @@ import { Heading } from "@/components/Heading";
 import { Paragraph } from "@/components/Paragraph";
 
 const badges = [
-  { name: "Essentiell Badge", slug: "essentiell" }, // Only Essentiell Badge
+  { name: "Essentiell Badge", slug: "essentiell" },
+  { name: "PCAP Badge", slug: "PCAP" },
 ];
 
 export default function BadgesPage() {
