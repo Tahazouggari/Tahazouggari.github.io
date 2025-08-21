@@ -4,7 +4,7 @@ import sidefolioAlgochurn from "public/images/phishingurldetector.png";
 import sidefolioAlgochurn2 from "public/images/phishingurldetector.png";
 import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
 import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-
+import Newsmobileapp from "public/images/newsapp.png";
 import parachute from "public/images/parachute.png";
 import EpidemicSim from "public/images/EpidemicSim.png";
 import pentesterlabImg from "public/images/pentesterlab.png";
@@ -27,7 +27,7 @@ export const products = [
     content: (
   <div>
     <p className="text-base leading-relaxed">
-      I developed this project during my <strong>second year of engineering studies (2A)</strong> at ENSICAEN as part of my academic work. 
+      we developed this project during my <strong>second year of engineering studies (2A)</strong> at ENSICAEN as part of my academic work. 
       It was carried out under the supervision of the{" "}
       <a 
         href="https://www.ensicaen.fr/recherche/laboratoires/greyc/" 
@@ -125,8 +125,62 @@ export const products = [
       </div>
     ),
   },
+
   {
-    href: "https://github.com/Tahazouggari/Parachute",
+    href: "https://github.com/Tahazouggari/NewsMobileApp?tab=readme-ov-file",
+    title: "NewsMobileApp",
+    description:
+    "A news application developed during my studies at ENSICAEN under the supervision of Professor Anthony Roger, built with Java and Kotlin using the MVVM architecture.",
+  thumbnail: Newsmobileapp,
+  images: [Newsmobileapp],
+  stack: ["Java", "Kotlin", "MVVM", "Room", "Retrofit", "Coroutines"],
+  slug: "newsmobileapp",
+  content: (
+    <div>
+      <p>
+        NewsMobileApp is an Android application built with 
+         Java and Kotlin, developed as part of my academic 
+        coursework at ENSICAEN under the supervision of{" "}
+        <a 
+          href="https://www.linkedin.com/in/anthonyroger/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          Professor Anthony Roger
+        </a>. 
+        The app is designed to deliver real-time news through a clean and 
+        intuitive interface while following the <strong>MVVM architecture</strong> 
+        for modularity and maintainability.
+      </p>
+
+      <p>
+        Core features include fetching headlines via the News API, saving 
+        favorite articles with offline access through Room Database, 
+        and searching for news by keyword. The app uses 
+         Retrofit for API calls, Coroutines for 
+        smooth background processing, and Android’s Navigation Component
+        for seamless screen transitions.
+      </p>
+
+      <p>
+        The project emphasizes usability and performance, with offline support, 
+        efficient caching, and a responsive design. It demonstrates practical 
+        integration of Android components such as DAOs, repositories, and 
+        fragments, resulting in a scalable and user-friendly news platform.
+      </p>
+
+      <p>
+        <strong>GitHub Pages:</strong>{" "}
+        <a href="https://tahazouggari.github.io/NewsMobileApp/" target="_blank">
+          Project Documentation
+        </a>
+      </p>
+    </div>
+  )
+},
+
+  {
+    href: "https://www.linkedin.com/posts/sandrine-bertrand-b575071_partenaire-hackathonbylcl2024-ai-activity-7241324935120400384-i0yB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD2bmiQBRzwUTX2oJwcn0bev7sOmJD685wk",
     title: "LCL x Google Cloud 2024",
     description:
       "The event challenged participants to predict customer financial behaviors and generate personalized product and service recommendations for LCL.",
@@ -137,15 +191,15 @@ export const products = [
     content: (
       <div>
         <p>
-          Ahead of the <strong>Hackathon LCL 2024</strong>, I successfully completed several <strong>Google Cloud training modules</strong>, including <em>Cloud Fundamentals: Core Infrastructure</em> and <em>Generative AI with Vertex AI and Gemini</em>. These courses provided a solid foundation in cloud architecture and AI integration, which proved invaluable during the competition. 
+          Ahead of the <strong> Hackathon LCL 2024</strong>, I successfully completed several Google Cloud training modules, including <em>Cloud Fundamentals: Core Infrastructure</em> and <em>Generative AI with Vertex AI and Gemini</em>. These courses provided a solid foundation in cloud architecture and AI integration, which proved invaluable during the competition. 
         </p>
     
         <p>
-          The hackathon featured <strong>two distinct challenges</strong>: one centered on predicting customer financial behaviors with machine learning, and another on deploying an AI-powered ChatBot using Gemini AI. <strong>Our team was assigned the first challenge</strong>, where we designed and implemented scalable solutions for customer behavior analysis and personalized product recommendations by leveraging <strong>Google Cloud Platform</strong>.
+          The hackathon featured two distinct challenges: one centered on predicting customer financial behaviors with machine learning, and another on deploying an AI-powered ChatBot using Gemini AI. Our team was assigned the first challenge, where we designed and implemented scalable solutions for customer behavior analysis and personalized product recommendations by leveraging Google Cloud Platform.
         </p>
     
         <p>
-          Carried out under intense time constraints, the competition required <strong>48 hours of continuous, high-pressure work</strong>. This experience not only enhanced my technical expertise in <strong>machine learning, data analysis, and cloud deployment</strong>, but also strengthened my resilience, adaptability, and ability to collaborate effectively. It provided direct exposure to real-world financial technology use cases and fostered valuable connections with professionals from <strong>LCL</strong> and <strong>Google Cloud</strong>.
+          Carried out under intense time constraints, the competition required 48 hours of continuous, high-pressure work. This experience not only enhanced my technical expertise in machine learning, data analysis, and cloud deployment, but also strengthened my resilience, adaptability, and ability to collaborate effectively. It provided direct exposure to real-world financial technology use cases and fostered valuable connections with professionals from LCL and Google Cloud.
         </p>
       </div>
     ),

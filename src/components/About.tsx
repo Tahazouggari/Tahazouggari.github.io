@@ -17,7 +17,7 @@ export default function About() {
         Focus Areas
       </Heading>
       <Paragraph className="mt-4">
-        I focus on offensive security—ethical hacking, penetration testing, and
+        I focus on offensive security ethical hacking, penetration testing, and
         threat modeling. I actively compete in CTFs and train on platforms such
         as Hack The Box and PentesterLab, sharpening my understanding of attacker
         techniques and informing practical defense strategies.
@@ -41,7 +41,7 @@ export default function About() {
         I believe in getting 1% better every day. Outside of coursework, I invest
         in:
       </Paragraph>
-      <ul className="list-disc pl-6 space-y-2">
+      <Paragraph>
         <li>
           <strong>Travel:</strong> exploring new places and cultures to broaden
           perspective and adaptability.
@@ -57,14 +57,14 @@ export default function About() {
           >
             swimming
           </a>{" "}
-          {/* TODO: replace href with your SUAPS/CROUS swimming club link */}
+    
            and weigh lifting for discipline, focus, and resilience.
         </li>
         <li>
           <strong>Learning:</strong> continuous upskilling through labs, Certifications, papers,
           and write-ups aiming to be a better version of yesterday.
         </li>
-      </ul>
+        </Paragraph>
 
       <Heading as="h2" className="text-xl font-bold mt-6">
         Beyond Work

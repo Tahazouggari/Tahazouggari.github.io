@@ -1,7 +1,8 @@
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import Image from "next/image";
-
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react"; // <-- use Lucide icon for back arrow
 const challenges = [
   {
     title: "Network Analysis",
@@ -13,14 +14,19 @@ const challenges = [
 export default function PCAPBadgePage() {
   return (
     <Container>
+       {/* Back button */}
+       <div className="mb-6">
+        <Link
+          href="/badges"
+          className="inline-flex items-center text-neutral-500 hover:text-neutral-900 
+                     dark:hover:text-white transition"
+        >
+          <ArrowLeft className="w-5 h-5 mr-2" />
+          Back to Badges
+        </Link>
+      </div>
       <div className="flex items-center gap-4 mb-8">
-        <Image
-          src="/images/pcap.png"
-          alt="PCAP Badge"
-          width={48}
-          height={48}
-          className="rounded"
-        />
+        
         <Heading className="font-black text-2xl">PCAP Badge Notes</Heading>
       </div>
       <p className="mb-6 text-lg text-neutral-300">
@@ -49,7 +55,7 @@ export default function PCAPBadgePage() {
               <iframe
                 src={challenge.pdf}
                 width="100%"
-                height="800px"
+                height="600px"
                 style={{ border: "1px solid #ccc", borderRadius: "8px" }}
                 title={challenge.title + " PDF"}
               />

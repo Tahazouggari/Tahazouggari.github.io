@@ -15,7 +15,7 @@ export default function CTFs() {
     <Container>
       <div className="text-center">
         <span className="text-5xl block mb-4">⚡</span>
-        <Heading className="font-extrabold text-3xl mb-6 text-white">
+        <Heading className="font-extrabold text-3xl mb-6 text-Black">
           Explore CTF Platforms
         </Heading>
         <p className="text-neutral-400 mb-10">
